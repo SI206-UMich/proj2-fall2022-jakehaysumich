@@ -141,8 +141,6 @@ def get_detailed_listing_database(html_file):
             tuppy = allTups[i] + listingInfo
             OutTupleList.append(tuppy)
     return OutTupleList            
-    
-    pass
 
 
 def write_csv(data, filename):
@@ -181,6 +179,7 @@ def write_csv(data, filename):
    
         for item in sort:
             writer.writerow(item)
+
 
 
 def check_policy_numbers(data):
