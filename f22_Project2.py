@@ -181,7 +181,6 @@ def write_csv(data, filename):
    
         for item in sort:
             writer.writerow(item)
-    pass
 
 
 def check_policy_numbers(data):
