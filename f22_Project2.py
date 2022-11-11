@@ -108,8 +108,6 @@ def get_listing_information(listing_id):
         
         outInfo = (policy, roomType, beds)
     return outInfo 
-    pass
-
 
 def get_detailed_listing_database(html_file):
     """
